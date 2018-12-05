@@ -2,6 +2,6 @@
 
 ## Touchpad
 
-It might be useful to debug the active trackpad features, to do so run `libinput debug-gui` as with privilege.
+It might be useful to debug the active trackpad features, to do so run `libinput debug-gui` with privilege.
 
 - To enable `tap-to-click` see `30-touchpad.conf`
