@@ -1,0 +1,14 @@
+[Unit]
+Description=Battery manager monitor
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=gabbla
+ExecStart=/usr/sbin/battery-monitor
+
+[Install]
+WantedBy=multi-user.target
